@@ -16,3 +16,10 @@ while True:
 
             """)
       opcion = input("Ingrese la opción deseada (1-6): ")
+      if opcion == "1":
+            resultado = num1 - num2
+            print(f"El resultado de la resta es: {resultado}")
+      elif opcion == "2":
+            resultado = num1 + num2
+            print(f"El resultado de la suma es: {resultado}")
+
