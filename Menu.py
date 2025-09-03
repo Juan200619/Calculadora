@@ -16,6 +16,7 @@ while True:
 
             """)
       opcion = input("Ingrese la opción deseada (1-6): ")
+
       if opcion == "1":
             resultado = num1 - num2
             print(f"El resultado de la resta es: {resultado}")
@@ -23,3 +24,14 @@ while True:
             resultado = num1 + num2
             print(f"El resultado de la suma es: {resultado}")
 
+
+      
+      if opcion == "3":
+            resultado = num1 * num2
+            print(f"El resultado de la multiplicación es: {resultado}")
+      if opcion == "4":
+            if num2 != 0:
+                  resultado = num1 / num2
+                  print(f"El resultado de la división es: {resultado}")
+            else:
+                  print("Error: División por cero no permitida.")
